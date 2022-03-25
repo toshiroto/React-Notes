@@ -25,10 +25,10 @@ function CreateArea(props) {
     })
   event.preventDefault();
   }
-  
+
   return (
     <div>
-      <form>
+      <form className="create-note">
         <input
           name="title"
           onChange={handleChange}
