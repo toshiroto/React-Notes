@@ -1,6 +1,6 @@
 function Note (props) {
   function handleClick () {
-    props.onDelete()
+    props.onDelete(props.id)
   }
 
   return (
