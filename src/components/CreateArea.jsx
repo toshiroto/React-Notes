@@ -2,6 +2,7 @@ import { useState } from "react";
 import AddIcon from '@mui/icons-material/Add';
 import Fab from '@mui/material/Fab';
 import Zoom from '@mui/material/Zoom';
+import Checkbox from '@mui/material/Checkbox';
 
 function CreateArea(props) {
   const [isExpanded, setExpanded] = useState(false);
@@ -43,6 +44,8 @@ function CreateArea(props) {
           onChange={handleChange}
           value={note.title}
           placeholder="Title" /> : null}
+          
+
 
         <textarea
           name="content"
